@@ -24,6 +24,7 @@ The following Opscode cookbooks are dependencies:
 * passenger_apache2
 * runit
 * unicorn
+* logrotate
 
 Resources/Providers
 ==========
@@ -82,6 +83,11 @@ unicorn
 -------
 
 The `unicorn` sub-resource LWRP configures Unicorn to run the application.
+
+logrotate
+-------
+
+The `logrotate` sub-resource LWRP configures Logrotate to run the application.
 
 # Attribute Parameters
 
